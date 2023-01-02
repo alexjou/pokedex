@@ -1,11 +1,13 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Box, Button, Typography } from '@mui/material'
 
 export const Home = () => {
   return (
-    <div>
-      <h1>Tela Home</h1>
-      <Link to="/pokemon">Pokemon</Link>
-    </div>
+    <Box>
+      <Typography variant='h1'>Tela Home</Typography>
+      <Button variant="contained" href="/pokemon">
+        Pokemon
+      </Button>
+    </Box>
   )
 }
