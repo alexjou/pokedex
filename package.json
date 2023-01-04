@@ -1,7 +1,7 @@
 {
   "name": "pokedex",
   "version": "0.1.0",
-  "homepage": "https://alexjou.github.io/pokedex",
+  "homepage": "https://alexjou.github.io/pokedex/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -27,7 +27,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {

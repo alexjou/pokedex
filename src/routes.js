@@ -11,9 +11,9 @@ export default function MainRoutes() {
   return (
     <ThemeProvider theme={theme}>
       <Routes>
-        <Route element={<Home />} path="/" />
-        <Route element={<Pokemon />} path="/pokemon/:pokemonIndex" />
-        <Route element={<Login />} path="/login" />
+        <Route element={<Home />} path="/pokedex" />
+        <Route element={<Pokemon />} path="/pokedex/pokemon/:pokemonIndex" />
+        <Route element={<Login />} path="/pokedex/login" />
       </Routes>
     </ThemeProvider>
   )

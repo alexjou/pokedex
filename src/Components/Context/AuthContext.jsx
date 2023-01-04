@@ -48,7 +48,7 @@ export const AuthProvider = ({ children }) => {
   const signIn = async (data) => {
     setUser(data)
     setPersistAuth(data)
-    navigate('/')
+    navigate('/pokedex')
   }
 
   const signOut = async () => {

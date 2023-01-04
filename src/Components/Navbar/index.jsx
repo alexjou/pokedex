@@ -19,10 +19,10 @@ export default function Navbar({ pokemonFilter, homeScreen }) {
       <AppBar position="static" sx={{ backgroundColor: 'black' }}>
         <Toolbar>
           <Content>
-            <Link to={'/'}>
+            <Link to={'/pokedex'}>
               <Box
                 component="img"
-                src="/images/pokemon-logo.png"
+                src="/pokedex/images/pokemon-logo.png"
                 height="3em"
               />
             </Link>
@@ -55,7 +55,7 @@ export default function Navbar({ pokemonFilter, homeScreen }) {
                       <LogoutIcon color="inherit" />
                     </IconButton>
                   ) : (
-                    <Link to={'/login'} style={{ marginLeft: 20 }}>
+                    <Link to={'/pokedex/login'} style={{ marginLeft: 20 }}>
                       <PersonIcon color="primary" />
                     </Link>
                   )}

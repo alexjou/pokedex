@@ -45,6 +45,7 @@ export const ContainerAbility = styled(Grid)`
   opacity: 1;
   transition: 0.3s;
   transform: rotateY(0deg);
+  padding-left: 10px;
 
   &:hover {
     transform: rotateY(40deg);
