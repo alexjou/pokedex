@@ -1,11 +1,20 @@
-<h1 align="center">Teste Leadster</h1>
+<h1 align="center">Teste Leadster - POKEDEX</h1>
 
 <h1 align="center">
 <img
     alt="leadster"
     src="./src/Components/assets/leadster.svg"
-    width=700
-    height=400    
+    width=400
+    height=200    
+  />
+</h1>
+
+<h1 align="center">
+<img
+    alt="leadster"
+    src="/public/poke.png"
+    width=600
+    height=300    
   />
 </h1>
 
