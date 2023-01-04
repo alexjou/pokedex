@@ -6,6 +6,8 @@ export const PokemonsContainer = styled(Box)`
   flex-wrap: wrap;
   justify-content: center;
   margin: 40px;
+  min-height: 100vh;
+  height: 100%;
 `
 
 export const PaginationContainer = styled(Box)`
